@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environment ---
+.venv/
+venv/
+ENV/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Project Specific (Sensitive/Temporary) ---
+# 核心配置文件（包含 AppID, AppSecret, API Key 等敏感信息）
+config.yaml
+
+# 微信 Access Token 缓存文件
+token_cache.json
+
+# 本地 SQLite 日志数据库
+*.db
+logs.db
+
+# 本地生成的文章内容缓存目录
+.cache/
+
+# 本地素材文件夹（图片等资产）
+assets/
+
+# --- Tools ---
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/

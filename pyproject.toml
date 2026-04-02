@@ -1,0 +1,14 @@
+[project]
+name = "pubagent-wechat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "apscheduler>=3.11.2",
+    "markdown>=3.10.2",
+    "pydantic>=2.12.5",
+    "pyyaml>=6.0.3",
+    "requests>=2.33.1",
+    "tenacity>=9.1.4",
+]

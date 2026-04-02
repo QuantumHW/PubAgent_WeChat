@@ -1,0 +1,31 @@
+# PubAgent 示例配置文件
+# 填入信息后，将此文件重命名为 config.yaml 即可开始运行
+
+wechat:
+  app_id: "your_wechat_app_id"
+  app_secret: "your_wechat_app_secret"
+
+llm:
+  prompt_dir: "prompts"   # 提示词根目录
+  active_style: "default" # 当前激活的写作风格文件夹名
+  default:
+    api_key: "your_llm_api_key"
+    base_url: "https://api.openai.com/v1"
+    model_name: "gpt-3.5-turbo"
+
+  tasks:
+    topic:
+      model_name: "gpt-3.5-turbo"
+    content:
+      model_name: "gpt-4"
+    digest:
+      model_name: "gpt-3.5-turbo"
+
+scheduler:
+  enabled: true
+  interval_hours: 24
+
+logging:
+  level: "INFO"
+  persist_to_db: true
+  db_path: "logs.db"
