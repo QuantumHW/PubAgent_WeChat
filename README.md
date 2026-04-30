@@ -119,7 +119,3 @@ uv run python main.py --schedule
 - **Initial MVP Release**
 - 实现基于 Pipeline 的多阶段内容生成。
 - 实现外部提示词文件夹管理与微信草稿箱发布。
-
-## 📝 许可证
-
-MIT License
